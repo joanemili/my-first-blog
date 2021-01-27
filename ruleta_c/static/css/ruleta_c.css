@@ -1,0 +1,26 @@
+h1 {
+    color: #0000FF;
+}
+
+h2 {
+    color:blueviolet;
+    float: center;
+    font-size: 36pt;
+}
+
+h3 {
+    color:#C25100;
+    font-family: 'Noto Serif', serif;
+}
+
+.consulta {
+    color: #41ca18;
+    font-family: 'Hachi Maru Pop', cursive;
+    float: center;
+    font-size: 36pt;
+    margin-right: 20px;
+}
+
+body {
+    padding-left: 15%;
+}
