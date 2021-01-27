@@ -18,8 +18,15 @@
 
         </div>
         <div>
-            <h1>{{ consulta }}</h1>
-	
+            {% for cons in consulta %}
+
+                <h2> de la Base de Dades:  {{cons.base_id}} </h2>
+                <h1>{{ cons }}</h1>
+            
+            {% endfor %}
+    
+            
+
 		<div>
 
 
