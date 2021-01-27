@@ -53,10 +53,12 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'mindsql.urls'
 
+
+
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ['mindsql/ruleta_c/templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

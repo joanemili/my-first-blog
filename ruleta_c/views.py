@@ -1,3 +1,4 @@
 from django.shortcuts import render
 
-# Create your views here.
+def query_roulette(request):
+    return render(request, 'ruleta_c/query_roulette.html',{})
