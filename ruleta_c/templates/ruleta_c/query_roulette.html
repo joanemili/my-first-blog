@@ -1,9 +1,14 @@
+{% load static %}
 <!DOCTYPE html>
+
 
     <head>
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Noto+Serif:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="{% static 'css/ruleta_c.css' %}">
 
 
 
@@ -26,9 +31,10 @@
         <div>
             {% for cons in consulta %}
 
-                <h2> de la Base de Dades:  {{cons.base_id}} </h2>
-                <h1>{{ cons }}</h1>
-            
+                <h3> de la Base de Dades: <strong> {{cons.base_id}} </strong> </h3>
+                <div class="consulta">
+                    {{ cons }}
+                </div>
             {% endfor %}
     
             
