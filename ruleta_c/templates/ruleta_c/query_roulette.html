@@ -13,32 +13,36 @@
         <style>
                 h1 {
                     color: #0000FF;
+                    display: flex;
+                    justify-content: center;
                 }
 
                 h2 {
                     color:blueviolet;
-                    float: center;
+                    display: flex;
+                    justify-content: center;
                     font-size: 36pt;
                 }
 
                 h3 {
                     color:#C25100;
                     font-family: 'Noto Serif', serif;
-                    float: center;
+                    display: flex;
+                    justify-content: center;  
                     font-size: 28pt;
                 }
 
                 .consulta {
                     color: #144605;
                     font-family: 'Hachi Maru Pop', cursive;
-                    float: center;
-                    font-size: 36pt;
+                    display: flex;
+                    justify-content: center;
+                    flex-wrap: wrap;
+                    font-size: 46pt;
                     margin-right: 20px;
                 }
 
-                body {
-                    padding-left: 15%;
-                }
+                
 
         </style>
 
@@ -54,12 +58,13 @@
 
         </header>
         <div>
-            <h2> pagina principal del joc MindTrap SQL version</h2>
+            <h2> Pàgina principal del joc MindTrap SQL</h2>
 
             <p>
                 <a href=""> Anar al següent joc</a>
             </p>
-
+            <br>
+            <br>
 
         </div>
         <div>
@@ -67,7 +72,8 @@
 
                 <h1> de la Base de Dades: </h1>
                 <h3> <strong> {{cons.base_id}} </strong> </h3>
-               
+               <br>
+               <br>
                 <div class="consulta">
 
                     {{ cons }}
