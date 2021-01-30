@@ -26,7 +26,7 @@ SECRET_KEY = '4kh3n+(u_!rcggp4*zg3j8=yknl%fk$&n$&m9x&^vse=b_i^9i'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', '.pythonanywhere.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'joanemili.pythonanywhere.com']
 
 
 # Application definition
@@ -58,7 +58,7 @@ ROOT_URLCONF = 'mindsql.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': ['mindsql/ruleta_c/templates'],
+        'DIRS': ['mindsql/ruleta_c'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
