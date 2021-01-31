@@ -155,7 +155,9 @@ ul {
   padding: 0;
 }
 * { font-family: 'Open Sans', sans-serif; }
-.container { max-width: 960px; }
+.container { 
+    margin-top: 10%;
+    max-width: 960px; }
 .tm-handwriting-font { font-family: 'Damion', cursive; }
 .tm-top-header {
   background: black;
@@ -242,7 +244,17 @@ ul {
   margin: 150px auto 350px;
   max-width: 650px;
 }
-.tm-welcome-description {text-align: justify;margin: 10%;}
+.tm-welcome-description { text-align: justify; 
+                          margin-left:10%; 
+                          margin-right:10%;
+                        }
+
+. container-ini{
+                    text-align: justify; 
+                    margin-left:10%; 
+                    margin-right:10%;
+}
+  
 .tm-welcome-img-container { text-align: right; }
 .tm-more-button-welcome { margin: 40px auto; }
 .tm-more-button {  
