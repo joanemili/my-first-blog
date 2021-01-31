@@ -155,9 +155,7 @@ ul {
   padding: 0;
 }
 * { font-family: 'Open Sans', sans-serif; }
-.container { 
-    margin-top: 10%;
-    max-width: 960px; }
+.container { max-width: 960px; }
 .tm-handwriting-font { font-family: 'Damion', cursive; }
 .tm-top-header {
   background: black;
