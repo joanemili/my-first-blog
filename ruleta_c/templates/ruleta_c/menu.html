@@ -1,4 +1,4 @@
-{% extends 'cdje_base.html' %}
+{% extends 'ruleta_c/cdje_base.html' %}
 {% load static %}
 
 {% block content %}
@@ -13,8 +13,9 @@
         <div class="row tm-welcome-content">
           <h2 class="white-text tm-handwriting-font tm-welcome-header"><img src={% static 'img/header-line.png' %} alt="Line" class="tm-header-line">&nbsp;El meu Llibre&nbsp;&nbsp;<img src={% static 'img/header-line.png' %} alt="Line" class="tm-header-line"></h2>
           <h2 class="gold-text tm-welcome-header-2">&lt title &gt&lt/title&gt</h2>
-          <p class="gray-text tm-welcome-description">Sí, sóc tan original que he titolat el llibre: <span class="gold-text">&lt title &gt&lt/title&gt</span> Com l'etiqueta del llenguatge html. Aniré publicant cada capítol quan tingui mes o menys clar que ja estan llestos, i això en temps de rellotge pot ser força variable</p>
-          <a href="#main" class="tm-more-button tm-more-button-welcome">Read More</a>      
+          <p class="gray-text tm-welcome-description">{Sí, coses seves, el llibre l'ha volgut titolar: <span class="gold-text">&lt title &gt&lt/title&gt</span> Com si tothom no tingués prou clar que l'autor es un tio rarito ja de per si, també ha de posar un titol rarito, com per redundar-se, raro raro}</p>
+          <p>[Podria ben ser que existís algun altre llibre amb el mateix títol perquè no ho he buscat. Si es així demano perdó i ja el canviaré, no pateixis qui siguis que ja ho havies fet abans que jo</p> 
+          <a href="#main" class="tm-more-button tm-more-button-welcome">llegir-ne més</a>      
         </div>
         <img src={% static 'img/table-set.png' %} alt="Table Set" class="tm-table-set img-responsive">  
       </div>      
@@ -24,20 +25,20 @@
       <div class="container" id="main">
         <section class="tm-section row">
           <div class="col-lg-9 col-md-9 col-sm-8">
-            <h2 class="tm-section-header gold-text tm-handwriting-font">Variety of Menus</h2>
-            <h2>Cafe House</h2>
-            <p class="tm-welcome-description">This is free HTML5 website template from <span class="blue-text">template</span><span class="green-text">mo</span>. Fndimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Ettiam sit amet orci eget eros faucibus tincidunt.</p>
-            <a href="#" class="tm-more-button margin-top-30">Read More</a> 
+            <h2 class="tm-section-header gold-text tm-handwriting-font">Per Kè per K&pi;-tools</h2>
+            <h2>&lt title &gt&lt/title&gt</h2>
+            <p class="tm-welcome-description">Com que encara no l'he acabat, la millor manera i de fet la úni-k d-kè es pogui llegir o anar llegint el meu llibre:<span class="blue-text">&lt title &gt&lt/title&gt</span> es per K&pi;-tools. Així es pot anar llegint a mida que el vaig escribint. Tot son avantatges!</p>
+            
           </div>
           <div class="col-lg-3 col-md-3 col-sm-4 tm-welcome-img-container">
             <div class="inline-block shadow-img">
-              <img src={% static 'img/1.jpg' %} alt="Image" class="img-circle img-thumbnail">  
+              <img src={% static 'img/2.jpg' %} alt="Image" class="img-circle img-thumbnail">  
             </div>              
           </div>            
         </section>          
         <section class="tm-section row">
           <div class="col-lg-12 tm-section-header-container margin-bottom-30">
-            <h2 class="tm-section-header gold-text tm-handwriting-font"><img src={% static 'img/logo.png' %} alt="Logo" class="tm-site-logo"> Our Menus</h2>
+            <h2 class="tm-section-header gold-text tm-handwriting-font">  &lt Title &gt &lt/Title&gt<br>    Els capítols:</h2>
             <div class="tm-hr-container"><hr class="tm-hr"></div>
           </div>
           <div>
@@ -45,18 +46,19 @@
               <div class="tm-position-relative margin-bottom-30">              
                 <nav class="tm-side-menu">
                   <ul>
-                    <li><a href="#" class="active">Affogato</a></li>
-                    <li><a href="#">Caffè Americano</a></li>
-                    <li><a href="#">Caffè latte</a></li>
-                    <li><a href="#">Coffee milk</a></li>
-                    <li><a href="#">Café mocha</a></li>
-                    <li><a href="#">Cappuccino</a></li>
-                    <li><a href="#">Espresso</a></li>
-                    <li><a href="#">Iced coffee</a></li>
-                    <li><a href="#">Instant coffee</a></li>
-                    <li><a href="#">Mocha</a></li>
-                    <li><a href="#">black coffee</a></li>
+                    <li><a href="#" class="active">De supermaL a Superman</a></li>
+                    <li><a href="#">Tan feliz en MI Tejado</a></li>
+                    <li><a href="#">De acero soy</a></li>
+                    <li><a href="#">Tà loj güevo de ViVí</a></li>
+                    <li><a href="#">En mi K-sa, no hay dinero</a></li>
+                    <li><a href="#">Mi, mi, mi, mi, mira niña qué</a></li>
+                    <li><a href="#">M'ajuego el tipo</a></li>
+                    <li><a href="#">Soñar despierto con</a></li>
+                    <li><a href="#">la luz de su sonrisa</a></li>
+                    <li><a href="#">Sufre JuLieta en el balcón:</a></li>
+                    <li><a href="#">viendo escalar a su GaLán</a></li>
                   </ul>              
+                  
                 </nav>    
                 <img src={% static 'img/vertical-menu-bg.png' %} alt="Menu bg" class="tm-side-menu-bg">
               </div>  
@@ -65,51 +67,51 @@
               <div class="tm-product">
                 <img src={% static 'img/menu-1.jpg' %} alt="Product">
                 <div class="tm-product-text">
-                  <h3 class="tm-product-title">Americano 1</h3>
-                  <p class="tm-product-description">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. Red ipsum.</p>
+                  <h3 class="tm-product-title">De supermaL a Superman</h3>
+                  <p class="tm-product-description">Primer capítol on el protagonista ens aclareix algunes coses i ens convida a reviure el que li va passar</p>
                 </div>
                 <div class="tm-product-price">
-                  <a href="#" class="tm-product-price-link tm-handwriting-font"><span class="tm-product-price-currency">$</span>30</a>
+                  <a href="#" class="tm-product-price-link tm-handwriting-font">1</a>
                 </div>
               </div>
               <div class="tm-product">
                 <img src={% static 'img/menu-2.jpg' %} alt="Product">
                 <div class="tm-product-text">
-                  <h3 class="tm-product-title">Americano 2</h3>
-                  <p class="tm-product-description">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. Red ipsum.</p>
+                  <h3 class="tm-product-title">Tan feliz en MI Tejado</h3>
+                  <p class="tm-product-description">Es vida, la vida de tejado? Se pregunta una vez mas</p>
                 </div>
                 <div class="tm-product-price">
-                  <a href="#" class="tm-product-price-link tm-handwriting-font"><span class="tm-product-price-currency">$</span>20</a>
+                  <a href="#" class="tm-product-price-link tm-handwriting-font">2</a>
                 </div>
               </div>
               <div class="tm-product">
                 <img src={% static 'img/menu-3.jpg' %} alt="Product">
                 <div class="tm-product-text">
-                  <h3 class="tm-product-title">Americano 3</h3>
-                  <p class="tm-product-description">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. Red ipsum.</p>
+                  <h3 class="tm-product-title">De acero soy</h3>
+                  <p class="tm-product-description">ke tire la primera piedra el ke pueda y el ke kiera. Y a kien le puede importar a estas alturas que uno...</p>
                 </div>
                 <div class="tm-product-price">
-                  <a href="#" class="tm-product-price-link tm-handwriting-font"><span class="tm-product-price-currency">$</span>15</a>
+                  <a href="#" class="tm-product-price-link tm-handwriting-font">3</a>
                 </div>
               </div>
               <div class="tm-product">
                 <img src={% static 'img/menu-4.jpg' %} alt="Product">
                 <div class="tm-product-text">
-                  <h3 class="tm-product-title">Americano 4</h3>
-                  <p class="tm-product-description">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. Red ipsum.</p>
+                  <h3 class="tm-product-title">Tà loj güevo de ViVí</h3>
+                  <p class="tm-product-description">Y vuelve el agua al molino o alguna cosa similar deia ma mare. Les onades que van i venen. el sol i la lluna que van i venen....</p>
                 </div>
                 <div class="tm-product-price">
-                  <a href="#" class="tm-product-price-link tm-handwriting-font"><span class="tm-product-price-currency">$</span>25</a>
+                  <a href="#" class="tm-product-price-link tm-handwriting-font">4</a>
                 </div>
               </div>
               <div class="tm-product">
                 <img src={% static 'img/menu-5.jpg' %} alt="Product">
                 <div class="tm-product-text">
-                  <h3 class="tm-product-title">Americano 5</h3>
-                  <p class="tm-product-description">Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque. Red ipsum.</p>
+                  <h3 class="tm-product-title">En mi K-sa, no hay dinero</h3>
+                  <p class="tm-product-description"></p>
                 </div>
                 <div class="tm-product-price">
-                  <a href="#" class="tm-product-price-link tm-handwriting-font"><span class="tm-product-price-currency">$</span>45</a>
+                  <a href="#" class="tm-product-price-link tm-handwriting-font">5</a>
                 </div>
               </div>
             </div>

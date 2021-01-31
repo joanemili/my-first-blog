@@ -1,13 +1,26 @@
-{% extends 'cdje_base.html' %}
+{% extends 'ruleta_c/cdje_base.html' %}
 {% load static %}
 
 {% block content %}
+
+<section class="tm-welcome-section">
+  <div class="container tm-position-relative">
+    <div class="tm-lights-container">
+      <a HREF="" ><img src={% static 'img/light.png' %} alt="Light" class="light light-1"></a>
+      <img src={% static 'img/light.png' %} alt="Light" class="light light-2">
+      <img src={% static 'img/light.png' %} alt="Light" class="light light-3">  
+    </div>        
+   </div> 
+</section>
+
 
     <section class="tm-welcome-section"></section>
       <div class="row tm-welcome-content">
           <h2 class="white-text tm-handwriting-font tm-welcome-header"></h2>
           <h2 class="gold-text tm-welcome-header-2">SQL MindTRap</h2>
           <br>
+          <p class="gray-text tm-welcome-description">Aprofitant la dinàmica i situacions del joc de taula MindTrap (gràcies "Juagos SPEAR!!") modifiquem el que faci falta perque tot s'hagi de solucionar amb el llengutage SQL</p>
+          
           <br>
           <br>    
         </div>
@@ -17,10 +30,7 @@
     <div class="tm-main-section light-gray-bg">
       <div class="container" id="main">
         <section class="tm-section tm-section-margin-bottom-0 row">
-          <div class="col-lg-12 tm-section-header-container">
-            <h2 class="tm-section-header gold-text tm-handwriting-font"><img src={% static 'img/logo.png' %} alt="Logo" class="tm-site-logo"> Vols fer una partida de...</h2>
-            <div class="tm-hr-container"><hr class="tm-hr"></div>
-          </div>
+          
           <div class="col-lg-12 tm-popular-items-container">
             <div class="tm-popular-item">
               <img src={% static 'img/popular-1.jpg' %} alt="Popular" class="tm-popular-item-img">
