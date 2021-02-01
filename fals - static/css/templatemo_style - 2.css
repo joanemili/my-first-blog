@@ -482,9 +482,9 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-around;
+  -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-around;
+          justify-content: space-between;
 }
 .tm-special-container-right {
   display: -webkit-box;
@@ -497,9 +497,9 @@ ul {
       -ms-flex-direction: column;
           flex-direction: column;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-around;
+  -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-around;
+          justify-content: space-between;
 }
 .tm-special-container-lower {
   display: -webkit-box;
@@ -507,9 +507,9 @@ ul {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-around;
+  -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-around;
+          justify-content: space-between;
 }
 
 /* http://stackoverflow.com/questions/488830/ol-with-numbers-another-color */
@@ -577,9 +577,9 @@ ol li:before {
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
-  -webkit-justify-content: space-around;
+  -webkit-justify-content: space-between;
       -ms-flex-pack: justify;
-          justify-content: space-around;
+          justify-content: space-between;
   -webkit-box-align: center;
   -webkit-align-items: center;
       -ms-flex-align: center;
